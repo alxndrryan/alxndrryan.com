@@ -15,8 +15,62 @@ body {
     color: $light-color;
 }
 
+a {
+    text-decoration: none;
+    color: $primary-color;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+// Landing
+
 .landing {
     position: relative;
     background: url("../img/stars-img.jpg");
     height: 100vh;
+
+    &-inner {
+        color: $light-color;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        text-align: center;
+        width: 80%;
+    }
+}
+
+// Navbar
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.7rem 2rem;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    border-bottom: solid 1px $primary-color;
+    opacity: 0.9;
+
+    ul {
+        display: flex;
+    }
+
+    a {
+        color: #fff;
+        padding: 0.45rem;
+        margin: 0 0.25rem;
+
+        &:hover {
+            color: $primary-color;
+        }
+    }
 }
