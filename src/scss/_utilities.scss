@@ -1,0 +1,70 @@
+// Container
+.container {
+    max-width: $max-width;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 2rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+// Text Styles
+.x-large {
+    font-size: 4rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+  }
+  
+  .large {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+  }
+  
+  .medium {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+  }
+  
+  .lead {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .text-primary {
+    color: $primary-color;
+  }
+  
+  .round-img {
+    border-radius: 50%;
+  }
+  
+  .line {
+    height: 1px;
+    background: $light-color;
+    margin: 1.5rem 0;
+  }
+
+  // Backgrounds
+.bg {
+    &-primary {
+      @include set-background($primary-color);
+      border: $medium-color 1px solid;
+    }
+  
+    &-light {
+      @include set-background($light-color);
+      border: $medium-color 1px solid;
+    }
+  
+    &-medium {
+      @include set-background($medium-color);
+      border: $dark-color 1px solid;
+    }
+  
+    &-dark {
+      @include set-background($dark-color);
+      border: $medium-color 1px solid;
+    }
+  }
