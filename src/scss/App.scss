@@ -14,3 +14,9 @@ body {
     background-color: $dark-color;
     color: $light-color;
 }
+
+.landing {
+    position: relative;
+    background: url("../img/stars-img.jpg");
+    height: 100vh;
+}
