@@ -3,17 +3,29 @@ const Portfolio = () => {
     <section className="container">
       <div className="landing-inner">
         <h1 className="large">About</h1>
-        <div className="about-container">
-          <div className="about-text-container">
-            <p>
-              I am a Full-Stack Web Developer located in Austin, TX. Creating is
-              what I love to do, namely websites.
-            </p>
-            <p>
-              Other things I love to create include music and fantasy worlds in
-              Dungeons & Dragons.
-            </p>
-          </div>
+        <div className="portfolio-container">
+          <ul className="projects-grid">
+            <li>
+              <div>
+                <h3>React</h3>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>MERN</h3>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>MongoDB</h3>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>GraphQL</h3>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
     </section>

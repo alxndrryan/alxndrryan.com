@@ -108,3 +108,22 @@ img {
         }
     }
 }
+
+// Portfolio
+
+.portfolio-container {
+    margin-top: 3rem;
+    line-height: 1.8;
+    border: 3px solid $primary-color;
+    padding: 1rem;
+}
+
+.projects-grid {
+    list-style: none;
+    padding: 0px;
+    margin: 50px 0px 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 15px;
+    position: relative;
+}
