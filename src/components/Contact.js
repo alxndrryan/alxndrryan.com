@@ -7,7 +7,7 @@ const Contact = () => {
           Have a question? Send me a message and I will get back to you!
         </p>
 
-        <form className="form form-border p-2 bg-medium">
+        <form className="form p-2">
           <div className="form-group">
             <input type="name" name="name" placeholder="Name" />
             <input type="email" name="email" placeholder="Email Address" />
@@ -16,9 +16,14 @@ const Contact = () => {
             <input type="password" name="password" placeholder="Subject" />
           </div>
           <div className="form-group">
-            <input type="password" name="password2" placeholder="Message" />
+            <textarea
+              rows="5"
+              type="password"
+              name="password2"
+              placeholder="Message"
+            />
           </div>
-          <input className="btn btn-primary" value="Register" type="submit" />
+          <input className="btn btn-primary" value="Send" type="submit" />
         </form>
       </div>
     </section>
