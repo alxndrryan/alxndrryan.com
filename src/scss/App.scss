@@ -28,6 +28,40 @@ img {
     width: 100%;
 }
 
+// About
+
+.about-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 3rem;
+
+    line-height: 1.8;
+    border: 3px solid $primary-color;
+    padding: 1rem;
+
+    img {
+        height: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .about-text-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .skills-list {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(140px, 200px));
+        gap: 0px 10px;
+        padding: 0px;
+        margin: 20px 0px 0px;
+        overflow: hidden;
+        list-style: none;
+    }
+}
+
 // Landing
 
 .landing {
