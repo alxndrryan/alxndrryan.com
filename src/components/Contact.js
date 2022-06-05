@@ -9,20 +9,14 @@ const Contact = () => {
 
         <form className="form form-border p-2 bg-medium">
           <div className="form-group">
-            <input type="text" name="name" placeholder="Name" />
-          </div>
-          <div className="form-group">
+            <input type="name" name="name" placeholder="Name" />
             <input type="email" name="email" placeholder="Email Address" />
           </div>
           <div className="form-group">
-            <input type="password" name="password" placeholder="Password" />
+            <input type="password" name="password" placeholder="Subject" />
           </div>
           <div className="form-group">
-            <input
-              type="password"
-              name="password2"
-              placeholder="Confirm Password"
-            />
+            <input type="password" name="password2" placeholder="Message" />
           </div>
           <input className="btn btn-primary" value="Register" type="submit" />
         </form>
