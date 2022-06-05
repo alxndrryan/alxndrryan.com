@@ -74,3 +74,46 @@
     width: 100%;
     background-color: rgba(0, 0, 0, 0.3);
   }
+
+  // Buttons
+.btn {
+  display: inline-block;
+  background: $light-color;
+  color: #333;
+  padding: 0.4rem 1.3rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  outline: none;
+  transition: all 0.2s ease-in;
+
+  &.btn-primary {
+    @include set-background($primary-color);
+
+    &:hover {
+      background: lighten($primary-color, 5%);
+    }
+  }
+
+  &.btn-dark {
+    @include set-background($dark-color);
+
+    &:hover {
+      background: lighten($dark-color, 5%);
+    }
+  }
+
+  &.btn-medium {
+    @include set-background($medium-color);
+
+    &:hover {
+      background: lighten($medium-color, 5%);
+    }
+  }
+
+  &:hover {
+    background: lighten($dark-color, 20%);
+    color: #fff;
+  }
+}
