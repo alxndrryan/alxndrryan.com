@@ -92,6 +92,10 @@ img {
         margin: auto;
         text-align: center;
         width: 80%;
+
+        &-home {
+            text-align: left;
+        }
     }
 }
 
