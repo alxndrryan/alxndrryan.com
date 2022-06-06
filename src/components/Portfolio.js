@@ -2,7 +2,7 @@ const Portfolio = () => {
   return (
     <section className="container">
       <div className="landing-inner">
-        <h1 className="large">About</h1>
+        <h1 className="large">Portfolio</h1>
         <div className="portfolio-container">
           <ul className="projects-grid">
             <li>

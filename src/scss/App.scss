@@ -63,6 +63,38 @@ img {
     }
 }
 
+.about-container-1 {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    margin-top: 3rem;
+    gap: 50px;
+
+    line-height: 1.8;
+    padding: 1rem;
+
+    img {
+        height: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .text-1 {
+        text-align: left;
+    }
+
+    .skills-list {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(140px, 200px));
+        gap: 0px 10px;
+        padding: 0px;
+        margin: 20px 0px 0px;
+        overflow: hidden;
+        list-style: none;
+        text-align: left;
+        font-size: 13px;
+    }
+}
+
 // Home
 
 .port-btn {
