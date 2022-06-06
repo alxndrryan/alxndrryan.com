@@ -63,6 +63,24 @@ img {
     }
 }
 
+// Home
+
+.port-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.line-1 {
+    
+    height: auto;
+    border-bottom: 1px solid white;
+    width: 65%;
+    margin-left: 20px;
+
+}
+
 // Footer
 
 .footer {
