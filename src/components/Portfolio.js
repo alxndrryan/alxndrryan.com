@@ -1,29 +1,23 @@
+import Project from './Project';
+
 const Portfolio = () => {
   return (
     <section className="container">
       <div className="landing-inner">
-        <h1 className="large">Portfolio</h1>
+        <h1 className="medium">Portfolio</h1>
         <div className="portfolio-container">
           <ul className="projects-grid">
-            <li>
-              <div>
-                <h3>React</h3>
-              </div>
+            <li className="project-item">
+              <Project />
             </li>
             <li>
-              <div>
-                <h3>MERN</h3>
-              </div>
+              <Project />
             </li>
             <li>
-              <div>
-                <h3>MongoDB</h3>
-              </div>
+              <Project />
             </li>
             <li>
-              <div>
-                <h3>GraphQL</h3>
-              </div>
+              <Project />
             </li>
           </ul>
         </div>

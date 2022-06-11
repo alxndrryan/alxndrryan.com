@@ -33,38 +33,6 @@ img {
 
 .about-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-top: 3rem;
-
-    line-height: 1.8;
-    border: 3px solid $primary-color;
-    padding: 1rem;
-
-    img {
-        height: auto;
-        margin-top: auto;
-        margin-bottom: auto;
-    }
-
-    .about-text-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
-
-    .skills-list {
-        display: grid;
-        grid-template-columns: repeat(2, minmax(140px, 200px));
-        gap: 0px 10px;
-        padding: 0px;
-        margin: 20px 0px 0px;
-        overflow: hidden;
-        list-style: none;
-    }
-}
-
-.about-container-1 {
-    display: grid;
     grid-template-columns: 3fr 2fr;
     margin-top: 3rem;
     gap: 50px;
@@ -198,19 +166,39 @@ img {
     }
 }
 
+// Project
+
+.project {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 55px;
+    gap: 1.5rem;
+    background-color: $medium-color;
+}
+
+
+
+.tech-list {
+    display: flex;
+    justify-content: center;
+
+    li {
+        margin: .5rem .5rem;
+    }
+}
+
 // Portfolio
 
 .portfolio-container {
     margin-top: 3rem;
     line-height: 1.8;
-    border: 3px solid $primary-color;
+    // border: 3px solid $primary-color;
     padding: 1rem;
 }
 
 .projects-grid {
     list-style: none;
     padding: 0px;
-    margin: 50px 0px 0px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 15px;

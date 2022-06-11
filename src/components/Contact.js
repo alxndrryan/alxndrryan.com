@@ -2,7 +2,7 @@ const Contact = () => {
   return (
     <section className="container">
       <div className="landing-inner landing-inner-contact">
-        <h1 className="large">Contact</h1>
+        <h1 className="medium">Contact</h1>
         <p className="lead">
           Have a question? Send me a message and I will get back to you!
         </p>

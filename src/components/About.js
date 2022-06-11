@@ -4,8 +4,8 @@ const About = () => {
   return (
     <section className="container">
       <div className="landing-inner">
-        <h1 className="large">About</h1>
-        <div className="about-container-1">
+        <h1 className="medium">About</h1>
+        <div className="about-container">
           <div className="about-text-container">
             <div className="text-1">
               <p className="my-1">
