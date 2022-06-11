@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
     <section className="container">
-      <div className="landing-inner">
+      <div className="landing-inner landing-inner-contact">
         <h1 className="large">Contact</h1>
         <p className="lead">
           Have a question? Send me a message and I will get back to you!
@@ -17,7 +17,7 @@ const Contact = () => {
           </div>
           <div className="form-group">
             <textarea
-              rows="5"
+              rows="4"
               type="password"
               name="password2"
               placeholder="Message"
