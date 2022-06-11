@@ -1,7 +1,8 @@
 const Navbar = () => {
   return (
     <nav className="navbar bg-medium">
-      <h1>AH</h1>
+      <div></div>
+      <h1 className="brand">AH</h1>
       <ul>
         <li>
           <a href="#">About</a>

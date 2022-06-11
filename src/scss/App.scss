@@ -125,7 +125,7 @@ img {
     min-height: 70px;
     padding: 15px;
     text-align: center;
-    color: #E94560;
+    color: $accent-color;
 }
 
 // Landing
@@ -162,11 +162,20 @@ img {
 }
 
 // Navbar
+
+.brand {
+    font-family: 'Pacifico', cursive;
+    color: $accent-color;
+    overflow: visible;
+    font-size: 3rem;
+    position: absolute;
+}
+
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.7rem 2rem;
+    padding: 1rem 2rem;
     position: fixed;
     z-index: 1;
     width: 100%;
