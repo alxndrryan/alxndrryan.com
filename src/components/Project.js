@@ -1,19 +1,16 @@
-const Project = () => {
+const Project = ({ title, tech1, tech2, tech3, about }) => {
   return (
     <div className="project">
       <header>
-        <h3>Project Title</h3>
+        <h3>{title}</h3>
         <ul className="tech-list">
-          <li>Tech 1</li>
-          <li>Tech 2</li>
-          <li>Tech 3</li>
+          <li>{tech1}</li>
+          <li>{tech2}</li>
+          <li>{tech3}</li>
         </ul>
       </header>
       <footer>
-        <p>
-          This is text about the project. This is more text about the project
-          because I need more text.
-        </p>
+        <p>{about}</p>
       </footer>
     </div>
   );

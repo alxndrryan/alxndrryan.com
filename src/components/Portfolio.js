@@ -8,16 +8,22 @@ const Portfolio = () => {
         <div className="portfolio-container">
           <ul className="projects-grid">
             <li className="project-item">
-              <Project />
+              <Project
+                title="DevConnector"
+                tech1="React"
+                tech2="MongoDB"
+                tech3="Node.js"
+                about="Social media platform for developers. Users are able to register to the site, create a profile, and write posts and comments."
+              />
             </li>
             <li>
-              <Project />
-            </li>
-            <li>
-              <Project />
-            </li>
-            <li>
-              <Project />
+              <Project
+                title="HorrorDB"
+                tech1="React"
+                tech2="MongoDB"
+                tech3="Node.js"
+                about="Search horror films and add your favorites to your profile page. View and comment on other user profiles."
+              />
             </li>
           </ul>
         </div>

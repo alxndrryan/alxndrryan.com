@@ -6,7 +6,7 @@ const About = () => {
       <div className="landing-inner">
         <h1 className="medium">About</h1>
         <div className="about-container">
-          <div className="about-text-container">
+          <div>
             <div className="text-1">
               <p className="my-1">
                 I am a Full-Stack Web Developer located in Austin, TX. Creating

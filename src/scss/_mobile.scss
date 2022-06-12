@@ -51,9 +51,29 @@
     .hide-xsm {
         display: none;
     }
+
+    //About
+    body .about-container {
+      display: grid;
+      grid-template-columns: 1fr;
+      margin-top: 0rem;
+      text-align: center;
+    
+        img {
+          height: auto;
+          margin: auto;
+        }
+
+        li {
+          text-align: center;
+        }
+
+        .text-1 {
+          text-align: center;
+        }
+      }
     
 }
-
 
     .brand-m {
         font-family: 'Pacifico', cursive;
@@ -61,6 +81,9 @@
         font-size: 3rem;
         text-align: center;
         }
+
+      //About
+      
 
 @media (min-width: 425px) {
     .hide-lg {
