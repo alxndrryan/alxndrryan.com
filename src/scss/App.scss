@@ -143,7 +143,8 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.2rem 2rem;
+    padding: 1.2rem 5.5rem;
+    // padding-right: 6rem;
     position: fixed;
     z-index: 1;
     width: 100%;
@@ -203,4 +204,33 @@ img {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 15px;
     position: relative;
+}
+
+// Socials
+
+.socials-container {
+    position: fixed;
+    z-index: 10;
+    top: 75px;
+    right: 35px;
+    left: auto;
+
+    li {
+        font-size: 1.5rem;
+        padding: 5px;
+    }
+
+    a {
+        color: $light-color;
+    }
+
+    .socials-line {
+    
+        height: 275px;
+        border-right: 1px solid white;
+        width: auto;
+        margin-right: 12px;
+        margin-bottom: 1rem;
+    
+    }
 }
