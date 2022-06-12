@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Socials = () => {
   return (
-    <div className="socials-container">
+    <div className="socials-container hide-sm">
       <ul>
         <li>
           <div className="socials-line"></div>

@@ -1,0 +1,70 @@
+@media (max-width: 780px) {
+    .hide-sm {
+      display: none;
+    }
+  
+    body .container {
+      margin-top: 8rem;
+      padding: 0 0.5rem;
+    }
+  
+    // Text Styles
+    body .x-large {
+      font-size: 3rem;
+      text-align: center;
+    }
+  
+    .large {
+      font-size: 2rem;
+      text-align: center;
+    }
+  
+    .lead {
+      font-size: 1rem;
+      text-align: center;
+    }
+  
+    // Navbar
+   body .navbar {
+      display: block;
+      text-align: center;
+      justify-content: center;
+    }
+  
+    ul {
+      text-align: center;
+      justify-content: center;
+    }
+  
+    h1 {
+      margin-bottom: 1rem;
+    }
+
+    .btn {
+        width: auto;
+        margin: auto;
+    }
+}
+
+@media (max-width: 425px) {
+    //Navbar
+    .hide-xsm {
+        display: none;
+    }
+    
+}
+
+
+    .brand-m {
+        font-family: 'Pacifico', cursive;
+        color: $accent-color;
+        font-size: 3rem;
+        text-align: center;
+        }
+
+@media (min-width: 425px) {
+    .hide-lg {
+        display: none;
+    }
+}
+    
