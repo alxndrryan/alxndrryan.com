@@ -5,21 +5,29 @@ const Footer = () => {
     <footer className="footer">
       <ul className="footer-socials hide-lg">
         <li>
-          <a>
+          <a href="#" className="socials-btn">
             <FontAwesomeIcon icon="fa-brands fa-github" />
           </a>
         </li>
         <li>
-          <FontAwesomeIcon icon="fa-brands fa-linkedin" />
+          <a href="#" className="socials-btn">
+            <FontAwesomeIcon icon="fa-brands fa-linkedin" />
+          </a>
         </li>
         <li>
-          <FontAwesomeIcon icon="fa-brands fa-twitter" />
+          <a href="#" className="socials-btn">
+            <FontAwesomeIcon icon="fa-brands fa-twitter" />
+          </a>
         </li>
         <li>
-          <FontAwesomeIcon icon="fa-solid fa-file" />
+          <a href="#" className="socials-btn">
+            <FontAwesomeIcon icon="fa-solid fa-file" />
+          </a>
         </li>
         <li>
-          <FontAwesomeIcon icon="fa-solid fa-award" />
+          <a href="#" className="socials-btn">
+            <FontAwesomeIcon icon="fa-solid fa-award" />
+          </a>
         </li>
       </ul>
 

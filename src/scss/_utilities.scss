@@ -116,3 +116,12 @@
     color: #fff;
   }
 }
+
+.socials-btn {
+  transition: all 0.2s ease-in;
+
+  &:hover {
+    background: lighten($dark-color, 5%);
+    color: $accent-color;
+  }
+}
