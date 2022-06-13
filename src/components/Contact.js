@@ -3,11 +3,12 @@ const Contact = () => {
     <section className="container">
       <div className="landing-inner landing-inner-contact">
         <h1 className="medium">Contact</h1>
-        <p className="lead">
+        <p className="lead hide-sm">
           Have a question? Send me a message and I will get back to you!
         </p>
+        <p className="lead hide-lg">Have a question?</p>
 
-        <form className="form p-2">
+        <form className="form p-2 hide-sm">
           <div className="form-group">
             <input type="name" name="name" placeholder="Name" />
             <input type="email" name="email" placeholder="Email Address" />
@@ -25,6 +26,11 @@ const Contact = () => {
           </div>
           <input className="btn btn-primary" value="Send" type="submit" />
         </form>
+        <input
+          className="btn btn-primary hide-lg"
+          value="Compose"
+          type="submit"
+        />
       </div>
     </section>
   );
