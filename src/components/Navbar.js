@@ -1,3 +1,5 @@
+import { Link } from 'react-scroll';
+
 import BrandButton from './BrandButton';
 
 const Navbar = () => {
@@ -7,13 +9,31 @@ const Navbar = () => {
       <BrandButton />
       <ul>
         <li>
-          <a href="#">About</a>
+          <Link to="about" spy={true} smooth="true" offset={-75} duration={500}>
+            About
+          </Link>
         </li>
         <li>
-          <a href="#">Portfolio</a>
+          <Link
+            to="portfolio"
+            spy={true}
+            smooth="true"
+            offset={-75}
+            duration={500}
+          >
+            Portfolio
+          </Link>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <Link
+            to="contact"
+            spy={true}
+            smooth="true"
+            offset={-75}
+            duration={500}
+          >
+            Contact
+          </Link>
         </li>
       </ul>
     </nav>

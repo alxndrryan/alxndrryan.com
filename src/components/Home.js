@@ -13,7 +13,7 @@ const Home = () => {
             <Link
               to="portfolio"
               spy={true}
-              smooth={true}
+              smooth="true"
               offset={-75}
               duration={500}
               className="btn btn-primary my-3"
