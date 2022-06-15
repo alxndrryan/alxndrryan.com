@@ -4,7 +4,9 @@ const Portfolio = () => {
   return (
     <section className="container">
       <div className="landing-inner">
-        <h1 className="medium">Portfolio</h1>
+        <h1 id="portfolio" className="medium">
+          Portfolio
+        </h1>
         <div className="portfolio-container">
           <ul className="projects-grid">
             <li className="project-item">

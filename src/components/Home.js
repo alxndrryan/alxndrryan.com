@@ -1,3 +1,5 @@
+import { Link } from 'react-scroll';
+
 const Home = () => {
   return (
     <section className="landing">
@@ -8,7 +10,16 @@ const Home = () => {
           <h2 className="large hide-xsm">Full-Stack Web Developer.</h2>
           <p className="lead">Always building something new.</p>
           <div className="port-btn">
-            <a className="btn btn-primary my-3">Portfolio</a>
+            <Link
+              to="portfolio"
+              spy={true}
+              smooth={true}
+              offset={-75}
+              duration={500}
+              className="btn btn-primary my-3"
+            >
+              Portfolio
+            </Link>
             <div className="line-1 hide-sm"></div>
           </div>
         </div>
