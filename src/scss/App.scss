@@ -201,9 +201,19 @@ a {
 .project {
     display: flex;
     flex-direction: column;
-    padding: 15px 55px;
+    padding: 1rem;
     gap: 1.5rem;
     background-color: $medium-color;
+
+    .project-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        font-size: 1.5rem;
+        gap: .5rem;
+
+       
+    }
 }
 
 

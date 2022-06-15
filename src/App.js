@@ -1,6 +1,10 @@
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
-import { faFile, faAward } from '@fortawesome/free-solid-svg-icons';
+import {
+  faFile,
+  faAward,
+  faWindowMaximize,
+} from '@fortawesome/free-solid-svg-icons';
 
 import About from './components/About';
 import Contact from './components/Contact';
@@ -12,7 +16,7 @@ import Socials from './components/Socials';
 
 import './css/App.min.css';
 
-library.add(fab, faFile, faAward);
+library.add(fab, faFile, faAward, faWindowMaximize);
 
 const App = () => {
   return (
