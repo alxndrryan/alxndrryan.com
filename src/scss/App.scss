@@ -153,13 +153,7 @@ a {
 
 // Navbar
 
-.brand {
-    font-family: 'Pacifico', cursive;
-    color: $accent-color;
-    overflow: visible;
-    font-size: 3rem;
-    position: absolute;
-}
+
 
 .navbar {
     display: flex;
@@ -173,6 +167,19 @@ a {
     border-bottom: solid 1px $primary-color;
     opacity: 0.9;
 
+    .brand {
+        font-family: 'Pacifico', cursive;
+        color: $accent-color;
+        overflow: visible;
+        font-size: 3rem;
+        position: absolute;
+        cursor: pointer;
+        
+        &:hover {
+            color: $light-color;
+        }
+    }
+
     ul {
         display: flex;
     }
@@ -183,7 +190,7 @@ a {
         margin: 0 0.25rem;
 
         &:hover {
-            color: $primary-color;
+            color: $accent-color;
         }
     }
 }

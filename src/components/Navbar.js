@@ -1,8 +1,10 @@
+import BrandButton from './BrandButton';
+
 const Navbar = () => {
   return (
     <nav className="navbar bg-medium navbar-m">
       <div></div>
-      <h1 className="brand hide-sm">AH</h1>
+      <BrandButton />
       <ul>
         <li>
           <a href="#">About</a>
