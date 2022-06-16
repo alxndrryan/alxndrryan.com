@@ -1,4 +1,30 @@
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
+        form.current,
+        process.env.REACT_APP_PUBLIC_KEY
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  };
+
   return (
     <section className="container">
       <div className="landing-inner landing-inner-contact">
@@ -10,19 +36,19 @@ const Contact = () => {
         </p>
         <p className="lead hide-lg">Have a question?</p>
 
-        <form className="form p-2 hide-sm">
+        <form ref={form} className="form p-2 hide-sm" onSubmit={sendEmail}>
           <div className="form-group">
             <input type="name" name="name" placeholder="Name" />
             <input type="email" name="email" placeholder="Email Address" />
           </div>
           <div className="form-group">
-            <input type="password" name="password" placeholder="Subject" />
+            <input type="subject" name="subject" placeholder="Subject" />
           </div>
           <div className="form-group">
             <textarea
               rows="4"
-              type="password"
-              name="password2"
+              type="message"
+              name="message"
               placeholder="Message"
             />
           </div>
