@@ -54,11 +54,12 @@ const Contact = () => {
           </div>
           <input className="btn btn-primary" value="Send" type="submit" />
         </form>
-        <input
+        <a
+          href="mailto:alexanderhogle@gmail.com"
           className="btn btn-primary hide-lg"
-          value="Compose"
-          type="submit"
-        />
+        >
+          Compose
+        </a>
       </div>
     </section>
   );
